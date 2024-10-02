@@ -1,7 +1,7 @@
-function Post() {
+function Post(props) {
     return <div>
         <p>
-        Hi 
+        Hi {props.author},
         </p>
         <p>
             This is First React Component
