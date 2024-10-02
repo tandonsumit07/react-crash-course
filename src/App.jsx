@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-import Post from "./components/Post";
+import PostListings from "./components/post-listing/PostListings";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +19,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <Post author="Sumit" />
+      <PostListings />
     </>
   );
 }
