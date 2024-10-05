@@ -1,9 +1,9 @@
 import classes from  "./../first-component/Post.module.css";
-function Post(props) {
+function Post({author, text}) {
   return (
     <li className={classes.post}>
-      <p className= {classes.author}>Hi {props.author},</p>
-      <p className= {classes.text}>{props.text}</p>
+      <p className= {classes.author}>Hi {author},</p>
+      <p className= {classes.text}>{text}</p>
     </li>
   );
 }
